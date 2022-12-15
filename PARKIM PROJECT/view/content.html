@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign In</title>
+    <link rel="stylesheet" href="../static/PARKIM_PART_B.css">
+    <script defer src="../static/PARKIM_JS.js"></script>
+</head>
+<body>
+    <header class= "container-fluid">
+        <div class= "container">
+        
+            <img id = "logo" src="../static/images/לוגו לבן.png" >
+            <nav>
+                <a href = "index.html">Home Page</a>
+                
+            </nav>
+        </div>
+    </header> 
+
+    <div class=" findPartnersBox">
+        <h3>Find It Here!</h3>
+        <form id = "findP">
+            <label for="activity">Pick your activity</label>
+            <select id = "gender">
+                <option value = "activity">Select Activity:</option>
+                <option value = "Yoga">Yoga</option>
+                <option value = "FootBall">FootBall</option>
+                <option value = "Play a musical instrument">Play a musical instrument</option>
+                <option value = "Meditate">Meditate</option>
+                <option value = "Watch a sunrise or sunset">Watch a sunrise or sunset</option>
+                <option value = "Play a board game">Play a board game</option>
+                <option value = "Jogging or running">Jogging or running</option>
+                <option value = "Painting">Painting</option>
+                <option value = "Dancing">Dancing</option>
+                <option value = "Do some exercise">Do some exercise</option>
+                <option value = "Go bird-watching">Go bird-watching</option>
+                <option value = "Throwing a frisbee">Throwing a frisbee</option>
+            </select>
+            <label for="cities">What city are you in right now?</label>
+            <select id = "cities">
+                <option value = "cities">Select City:</option>
+                <option value = "Tel-Aviv">Tel-Aviv</option>
+                <option value = "Beer-Sheva">Beer-Sheva</option>
+                <option value = "Haifa">Haifa</option>
+                <option value = "Kibbutz Kefar-Haruv">Kibbutz Kefar-Haruv</option>
+            </select>
+            <label for="activity date and time">Choose a date and time for your Activity:</label>
+            <input type="datetime-local" id="activity date and time" name="activity date and time">
+            <label>Pick a Park:</label>
+            <input class = txt1 type="text" placeholder="">
+            <input type="submit" value="SUBMIT">
+            
+
+
+        </form>
+    </div>
+
+    
+    
+<script src="PARKIM_JS.js"></script>
+</body>
+</html>
