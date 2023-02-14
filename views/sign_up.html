@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign In</title>
+    <link rel="stylesheet" href="css/PARKIM_PART_B_and_C.css">
+    <script defer src="../static/js/PARKIM_JS.js"></script>
+</head>
+<body>
+    <header class= "container-fluid">
+        <div class= "container">
+        
+            <img id = "logo" src="../graphics/לוגו לבן.png" >
+            <nav>
+                <a href = "http://localhost:3000/">Home Page</a>
+                
+            </nav>
+        </div>
+    </header> 
+
+    <div class=" signupbox">
+        <h2>Sign Up</h2>
+        <form action = "/signUpToDB" method="post">
+            <label>First Name</label>
+            <input class ="first" type="text" placeholder="" name="First_Name" required>
+            <label>Last Name</label>
+            <input class ="last" type="text" placeholder="" name="Last_Name">
+            <label>Email</label>
+            <input class= "email" type="email" placeholder="" name="email"
+                pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" required>
+            <label for = "gender">Gender</label>
+            <select id = "gender">
+                <option value = "Gender">Select Gender:</option>
+                <option value = "Male">Male</option>
+                <option value = "Female">Female</option>
+                <option value = "Other">Other</option>
+            </select>
+
+            <label>Password</label>
+            <input class = "password" type="password" placeholder="" name="Password">
+            <input type="submit" value="signUpToDB">
+            
+
+
+        </form>
+    </div>
+
+    
+    
+<script src="PARKIM_JS.js"></script>
+</body>
+</html>

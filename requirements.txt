@@ -1,0 +1,44 @@
+החבילות אשר הורדתי לביצוע חלק השרת בפרויקט:
+
+body-parser@1.20.1
+csv-parse@5.3.5
+csv-stringify@6.2.4
+csvtojson@2.0.10
+express-flash@0.0.2
+express-session@1.17.3
+express@4.18.2
+mysql2@3.1.2
+
+הסינטקס להורדת החבילות לעיל:
+
+
+npm install express@1.0.0
+npm install body-parser@1.20.1
+npm install csv-parse@5.3.5
+npm install csv-stringify@6.2.4
+npm install csvtojson@2.0.10
+npm install express-flash@0.0.2
+npm install express-session@1.17.3
+npm install express@4.18.2
+npm install mysql2@3.1.2
+
+על מנת להקים את בסיס הנתונים:
+
+http://localhost:3000/CreateUSERSTable
+http://localhost:3000/CreateCONTENTSTable
+
+על מנת להזין רשומות לבסיס הנתונים:
+
+http://localhost:3000/InsertUSERSinfo
+http://localhost:3000/InsertCONTENTSinfo
+
+על מנת להציג רשומות בסיס הנתונים:
+
+http://localhost:3000/ShowUSERSTable
+http://localhost:3000/ShowCONTENTSTable
+
+על מנת למחוק טבלאות בסיס הנתונים:
+
+http://localhost:3000/DropUSERSTable
+http://localhost:3000/DropCONTENTSTable	
+
